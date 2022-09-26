@@ -5,7 +5,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg bg-dark">
       <div className="container">
         <a className="navbar-brand text-white" href="#">
-          Lyric
+          Lyrics App
         </a>
         <button
           className="navbar-toggler"
@@ -22,7 +22,7 @@ const Navbar = () => {
           className="collapse navbar-collapse justify-content-end"
           id="navbarNav"
         >
-          <ul className="navbar-nav">
+          {/* <ul className="navbar-nav">
             <li className="nav-item">
               <a className="nav-link text-white" aria-current="page" href="#">
                 Home
@@ -38,7 +38,7 @@ const Navbar = () => {
                 Pricing
               </a>
             </li>
-          </ul>
+          </ul> */}
         </div>
       </div>
     </nav>
